@@ -11,7 +11,7 @@ const AISummary = ({ aiSummary }) => {
   }, [])
 
   return (
-    aiSummary && (
+    aiSummary && ( 
       <div className={styles['post-ai']}>
         <div className={styles['ai-container']}>
           <div className={styles['ai-header']}>
